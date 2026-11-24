@@ -573,7 +573,7 @@ function cleanName(s){return String(s||'').replace(/[^A-Za-z0-9 _.'\-]/g,'').rep
    API_URL  : your Apps Script /exec URL. Needed when this page is hosted OUTSIDE Apps Script (GitHub Pages, Netlify...).
    GAME_URL : the public address of this hosted page. Used by the "OPEN GAME" button if the mic is blocked in Apps Script. */
 var API_URL='https://script.google.com/macros/s/AKfycbxom-0UPnAHIeUupbgd3bV4oWHUxvFhG6V403BKaOBLix8gDvuaPqG2QJ-_f_uBMu6b/exec';
-var GAME_URL='';
+var GAME_URL='https://paulopoig.github.io/squeak-or-leap/';
 var MOCK={
   db:function(){var d=jget('sol.mock',null);if(!d){d=[{id:'demo-0001',n:'ANT SLAYER',s:1820,g:5,t:1},{id:'demo-0002',n:'MISS MOUSE',s:1260,g:3,t:2},{id:'demo-0003',n:'TERMINATOR',s:940,g:7,t:3},{id:'demo-0004',n:'BUG BUSTER',s:610,g:2,t:4},{id:'demo-0005',n:'ROACH',s:355,g:1,t:5}];jset('sol.mock',d)}return d},
   view:function(pid){
